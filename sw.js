@@ -1,8 +1,8 @@
 /* Ludus Manager service worker.
  * Bump CACHE when the app shell should replace older cached files.
- * Current cache name: ludus-manager-v4
+ * Current cache name: ludus-manager-v5
  */
-const CACHE = 'ludus-manager-v4';
+const CACHE = 'ludus-manager-v5';
 
 const PRECACHE = [
   './',
@@ -12,10 +12,15 @@ const PRECACHE = [
   './icons/icon-192.png',
   './icons/icon-512.png',
   './sprites/murmillo.png',
+  './sprites/murmillo-back.png',
   './sprites/retiarius.png',
+  './sprites/retiarius-back.png',
   './sprites/thraex.png',
+  './sprites/thraex-back.png',
   './sprites/dimachaerus.png',
+  './sprites/dimachaerus-back.png',
   './sprites/secutor.png',
+  './sprites/secutor-back.png',
   './sprites/coin.png',
   './sprites/sword.png',
   './sprites/armor.png',
@@ -26,11 +31,17 @@ const PRECACHE = [
   './sprites/infirmary.png',
   './sprites/armory.png',
   './sprites/mythic-vampire.png',
+  './sprites/mythic-vampire-back.png',
   './sprites/mythic-werewolf.png',
+  './sprites/mythic-werewolf-back.png',
   './sprites/mythic-cyclops.png',
+  './sprites/mythic-cyclops-back.png',
   './sprites/mythic-titan.png',
+  './sprites/mythic-titan-back.png',
   './sprites/mythic-gorgon.png',
+  './sprites/mythic-gorgon-back.png',
   './sprites/mythic-minotaur.png',
+  './sprites/mythic-minotaur-back.png',
 ];
 
 self.addEventListener('install', (event) => {
