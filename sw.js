@@ -1,8 +1,8 @@
 /* Ludus Manager service worker.
  * Bump CACHE when the app shell should replace older cached files.
- * Current cache name: ludus-manager-v8
+ * Current cache name: ludus-manager-v9
  */
-const CACHE = 'ludus-manager-v8';
+const CACHE = 'ludus-manager-v9';
 
 const PRECACHE = [
   './',
@@ -30,6 +30,8 @@ const PRECACHE = [
   './sprites/yard.png',
   './sprites/infirmary.png',
   './sprites/armory.png',
+  './sprites/gate.png',
+  './sprites/court.png',
   './sprites/mythic-vampire.png',
   './sprites/mythic-vampire-back.png',
   './sprites/mythic-werewolf.png',
