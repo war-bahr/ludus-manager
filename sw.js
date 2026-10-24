@@ -1,8 +1,8 @@
 /* Ludus Manager service worker.
  * Bump CACHE when the app shell should replace older cached files.
- * Current cache name: ludus-manager-v5
+ * Current cache name: ludus-manager-v6
  */
-const CACHE = 'ludus-manager-v5';
+const CACHE = 'ludus-manager-v6';
 
 const PRECACHE = [
   './',
