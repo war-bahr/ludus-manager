@@ -1,8 +1,8 @@
 /* Ludus Manager service worker.
  * Bump CACHE when the app shell should replace older cached files.
- * Current cache name: ludus-manager-v9
+ * Current cache name: ludus-manager-v10
  */
-const CACHE = 'ludus-manager-v9';
+const CACHE = 'ludus-manager-v10';
 
 const PRECACHE = [
   './',
@@ -32,6 +32,30 @@ const PRECACHE = [
   './sprites/armory.png',
   './sprites/gate.png',
   './sprites/court.png',
+  './sprites/gear/gladius.png',
+  './sprites/gear/gladius-bronze.png',
+  './sprites/gear/gladius-gold.png',
+  './sprites/gear/sica.png',
+  './sprites/gear/trident.png',
+  './sprites/gear/net.png',
+  './sprites/gear/spatha.png',
+  './sprites/gear/paired.png',
+  './sprites/gear/manica.png',
+  './sprites/gear/subarmalis.png',
+  './sprites/gear/cardio.png',
+  './sprites/gear/scale.png',
+  './sprites/gear/scale-back.png',
+  './sprites/gear/plate.png',
+  './sprites/gear/plate-back.png',
+  './sprites/gear/galea.png',
+  './sprites/gear/galea-bronze.png',
+  './sprites/gear/galea-gold.png',
+  './sprites/gear/gilded.png',
+  './sprites/gear/crested.png',
+  './sprites/gear/galea-back.png',
+  './sprites/gear/galea-back-bronze.png',
+  './sprites/gear/galea-back-gold.png',
+  './sprites/gear/crested-back.png',
   './sprites/mythic-vampire.png',
   './sprites/mythic-vampire-back.png',
   './sprites/mythic-werewolf.png',
